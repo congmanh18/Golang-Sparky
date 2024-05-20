@@ -1,0 +1,33 @@
+Slice:
+
+
+Interface:
+
+
+
+Core - Thread:
+ Concurrency in GO:
+ + Sync:
+ + Async:
+
+ 
+ Tại sao 3 core lại có lúc không nhanh chóng hơn 1 core?
+    Tốn thời gian khởi tạo core, nó có thể mất time đẩy task ra 3 core,
+    rồi join kết quả lại hoặc đôi khi nó acess vào tài nguyên chung bị block. 
+    + function() {1000 print('hello')} 1 core sẽ gần tương đương 3 core kết quả cũng ko chênh lệch nhiều.
+    + download (1000 file) 3 core sẽ nhanh hơn (liên quan đến I/O nữa)
+
+    Trên 1 core có run được nhiều concurrency không? CÓ, (chạy - dừng - chạy - dừng)
+    Tại 1 thời điểm chỉ chạy được 1 task? (Thời gian - tác vụ liên quan với nhau như nào?)
+    
+    Go rountines
+    JVM(config)
+    race condition: 2 thằng go routine (a++) khác thằng (a=0)
+    channel
+
+
+    kernal space: bao nhiêu core bấy nhiêu thread, (phần vật lý)
+    user space: 
+    lightweight thread 
+
+    how much memory go routine alowcated
