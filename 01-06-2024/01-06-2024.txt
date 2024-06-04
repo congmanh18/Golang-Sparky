@@ -1,0 +1,25 @@
+GORM https://gorm.io/docs/index.html
+
+Preload: in (dùng in vì có thể 1 nhiều) code nhanh nhưng performence thì không.
+
+
+GORM
++ CODE dễ đọc
++ tốc độ code nhanh hơn - tuy nhiên gorm tự sinh query nên có thể mình sẽ ko kiểm soát được nó khó hơn  (-performence)
++ phải hiểu rõ database nhó.... 
++ Query có hại - con dao 2 lưỡi
++ CỐ GẮNG MASTER DATABASE
+
+DRYRUN MODE để Debug ( ít khi dùng ) dùng DEBUG hay hơn
+
+hạn chế sử dụng sub query (như kiểu for lồng), làm chậm performence 
+
+Context
+
+db.WithContext.Query không nên Query trực tiếp nên truyền context vào trc?
+AllowGlobalupdate ?
+
+dùng traction khi > 2 (tk sau hỏng thì coi như không có gì xảy ra ..)
+
+
+database chiến lược thực thi 

@@ -1,0 +1,15 @@
+image: file mo ta cau app
+image hub: chua rat nhieu cac image cua cong dong dua len 
+    - vi co nhieu phan mem ma nguon mo (postgres, mysql, rafana, redis)
+    -chua cac docker hub, gitlab, tu host
+image co the tu tao
+connect toi image hub - keo ve cac image minh can ve
+
+
+docker ps: xem co bao nhieu cai container dang chay
+docker image: tap hop nhung thu muc ben trong - thong tin ve cau hình
+
+Tự tạo (doker build...) > Image > docker run > Container
+
+
+nhieu container giao tiep voi nhau (network micronet)

@@ -1,0 +1,17 @@
+nanoid - uuid golang ?
+idx?
+
+Goroutine:
+-concurrency?
+
+job-queues in Golang
+su dung select khi phai lam viec voi nhieu channel
+
+race condition khi co nhieu goroutine cung tuong tac voi cung 1 channel tren cung 1 thoi diem
+data race? khac race condition
+
+rece condition se sinh ra data race
+    + race condition co thread cung truy xuat vao 1 bie day
+    + khi ma nhieu thread cung thao tac vao 1 bien lam thay doi cai data day
+
+
