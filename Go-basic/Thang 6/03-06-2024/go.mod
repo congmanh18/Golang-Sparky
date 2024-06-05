@@ -1,6 +1,6 @@
 module microlap-gorm
 
-go 1.22.3
+go 1.20
 
 require (
 	gorm.io/driver/postgres v1.5.7
