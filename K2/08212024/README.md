@@ -1,8 +1,8 @@
 ## Struct
 
-đại diện cho đối tượng cấu trúc mà mình muốn đóng gói nó lại - hoàn toàn tương ứng với class của java
+Đại diện cho đối tượng cấu trúc mà mình muốn đóng gói nó lại - hoàn toàn tương ứng với class của java
 
-syntax: 
+### syntax: 
 
 ```
 type Strudent struct {
@@ -12,9 +12,13 @@ type Strudent struct {
 }
 ```
 
-public: chữ hoa
-private: chữ thường (private của cái gì? của cái pagkage đang đứng)
+## Package
+- public: chữ hoa
+- private: chữ thường (private của cái gì? của cái pagkage đang đứng)
 
+
+
+```
 package oop
 
 func main() {
@@ -26,10 +30,10 @@ func main() {
 
     fmt.Println(student)
 }
-
+```
 thư viện: https://github.com/davecgh/go-spew.git
 
-Zero value???? 
+## Zero value???? 
 - string ""
 - int 0
 - bool false
@@ -42,16 +46,19 @@ tìm hiểu kỹ về type tý
 cmd + shift + t: test function, test for file
 argument là tham số truyền vào
 
-
+## Method
 2 loại Method trong Golang
-method và reiever method
+method và reciever method
 
 entity: object đại diện cho nghiệp vụ
 repository: 
 
+## Interface - implement ngầm định
 
 
-Một thông điệp commit tốt nên ngắn gọn, rõ ràng, và giải thích được lý do hoặc mục đích của thay đổi.
+
+## Git workflow
+
 ### **Format Cơ Bản:**
 ```bash
 <type>(<scope>): <subject>

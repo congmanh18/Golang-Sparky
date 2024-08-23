@@ -11,7 +11,7 @@ func NewUserRepo() UserRepo {
 
 func (u UserRepo) GetUserByUID(ID string) entity.User {
 	return entity.User{
-		ID:    "1",
+		ID:    &ID,
 		Name:  "Manh",
 		Email: "nguyenmanh@gmail.com",
 	}
